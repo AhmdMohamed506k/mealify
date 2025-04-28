@@ -1,0 +1,815 @@
+/* globle  styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    
+}
+
+.globelFont{
+    font-family: "Amatic SC", serif;
+    font-size: 50px;
+    color: white;
+}
+.globelFont2{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: white;
+}
+
+
+.globelSpanFont{
+    font-family: "Amatic SC", serif;
+    font-size: 50px;
+    color: #c17e1f;
+}
+/* === */
+
+
+
+
+
+
+
+
+
+/* ?  =====> NAVBAR */
+.navbar{
+    box-shadow: 0px 0px 14px 0px #0000001b;
+    
+    height: 16vh;
+   
+    background-color: #171717;
+
+}
+#MoodIcon ,#sunIcon{
+    cursor: pointer;
+}
+#navbar .container .collapse ul li a{
+    color: white;
+}
+
+
+#myNavUl{
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-link.active{
+   position: relative;
+   
+   
+}
+.nav-link.active::after{
+    position: absolute;
+    content:" ";
+    height: 3px;
+    width: 74%;
+    top: 33px;
+    bottom: 0;
+    left: 8px;
+   background-color: #c17e1f;
+}
+
+
+
+/* ====> NAVBAR 2 */
+#mylist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    transform: translateY(50px) scale(110%);
+    
+ 
+}
+#offcanvasRight{
+    background-color: #171717;
+    color: white;
+  
+}
+#mylist .nav-item .nav-link{
+    margin: 10px 0px;
+ 
+}
+
+#mylist .nav-item .nav-link.active{
+    position: relative;
+   
+}
+
+#mylist .nav-item .nav-link.active::after{
+    position: absolute;
+    content:" ";
+    height: 3px;
+    width: 74%;
+    top: 33px;
+    bottom: 0;
+    left: 1px;
+    background-color: #c17e1f;
+}
+#listcloseBTN{
+    transform: translateY(-80px);
+    margin-right: 5px;
+}
+.navbar-nav{
+    margin-left: 60%;
+}
+.Mood-btns{
+   margin-left: 30%;
+ 
+}
+/*NavFonts*/
+#navTitle{
+    font-family: "Open Sans", serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+#navTitle::after{
+content: ".";
+color: #c17e1f;
+}
+.navbar-nav .nav-item a{
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+#mylist .nav-item a{
+    color: white;
+}
+
+
+
+
+
+/* !======> mainSection */
+
+#mainSection{
+    background-color: #252525;
+    height: 100%;
+    padding: 150px 40px;
+}
+
+#mainSection .container .row .col-md-7 #btnGroup #mybtn1Container #mainHomeIcon i {
+    color: white;
+}
+
+
+#mainTitle{
+    font-family: "Amatic SC", serif;
+    font-weight: 700;
+    font-size: clamp(45px, 5.385vw, 65px);
+    margin-bottom: 40px;
+    color: white;
+    
+}
+#mainTitle_P{
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: clamp(13px, 1.5vw, 20px);
+    margin-bottom: 40px;
+    color: white;
+}
+#mainSection  .container .row .col-md-7 {
+   margin: auto auto;
+}
+#mainSection  .container .row  .col-md-7  .btnGroup{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 45%;
+   
+}
+.mybtn{
+    background-color: #c17e1f;
+
+    padding: 10px 25px;
+    
+}
+.mybtn2{
+    margin: auto 0;
+ 
+}
+
+#mybtn1Container{
+
+    transition: all 1000ms;
+}
+#mybtn1Container a{
+  color: white;  
+    font-weight: 600;
+}
+#foodImg{
+  max-width: 100%;
+  margin-bottom: 40px;
+ 
+  filter: drop-shadow(4px 4px 9px #000a)
+}
+#foodImg:hover{
+    animation:tilt-shaking 0.3s infinite;
+}
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+#mainHomeIcon{
+ background-image: linear-gradient(to right, #c17e1f  50% , transparent 50% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: relative;
+  z-index: 10;
+ 
+
+}
+#mainHomeIcon::before{
+position: absolute;
+z-index: -1;
+  content: "";
+  background-color: #171717;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+#mybtn1Container:hover  a {
+    color: #c17e1f;
+}
+#mybtn1Container:hover  i {
+    color: #c17e1f;
+}
+
+
+
+
+/* ?   CHEFS_Section   */
+
+
+
+#CHEFS_Section{
+    height: 100%;
+    padding: 4rem 0rem;
+    background-color: #202020;
+
+}
+
+
+
+
+
+
+/* todo //  cardAndImage ===> control */
+#CHEFS_Section .container .row .col-md-4 picture img{
+   max-width: 100%;
+   transform: scaleX(105.1%);
+}
+
+
+#CHEFS_Section .container .row .col-md-4{
+    transform: scale(90%);
+    box-shadow:0px 10px 20px 1px #0000001b;
+    overflow: hidden;
+    
+    position: relative;
+}
+#CHEFS_Section .container .row .col-md-4:hover{
+    transform: scale(100%);
+   
+}
+
+
+
+
+
+/* mediaBoxsHover ===> control */
+#CHEFS_Section .container .row .col-md-4 .mediaBoxs{
+    background-color: #ffffff4d;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 170px;
+    border-radius: 5%;
+    position: absolute;
+    top: 20px;
+    right: -55px;
+    z-index: 1000;
+}
+#CHEFS_Section .container .row .col-md-4 .mediaBoxs a{
+    text-decoration: none;
+    margin: 8px;
+    text-align: center;
+    color: #202020;
+}
+#CHEFS_Section .container .row .col-md-4 .mediaBoxs a:hover{
+    color: white;
+}
+#CHEFS_Section .container .row .col-md-4 .mediaBoxs a i{
+    transform: scale(110%);
+}
+#CHEFS_Section .container .row .col-md-4:hover .mediaBoxs{
+    right: 10px;
+}
+
+
+
+
+/* ?SVG==> Control */
+#CHEFS_Section .container .row .col-md-4  svg{
+  position: absolute;
+  width: 125%;
+  bottom: 0;
+  left: -1rem;
+  margin: auto;
+  
+  
+  
+
+
+ 
+}
+
+
+/* sectionFont ==> control */
+
+.globelChefTitleFontStyle{
+    font-family: "Inter", serif;
+    font-size: 21px;
+    font-weight: 700;
+      color:white ;
+}
+.globelChefSpanFontStyle{
+    font-family: "Open Sans", serif;
+    color:white ;
+    font-size: 15px;
+    font-weight: 400;
+}
+.globelChefParagraphFontStyle{
+    font-family: "Open Sans", serif;
+    color:white ;
+    font-size: 15px;
+    width: 90%;
+    margin: auto;
+   
+
+}
+
+
+
+
+/* todo ===> GallerySection  */
+
+
+#GallerySection{
+    height: 100%;
+    padding: 4rem 0rem;
+    background-color: #252525;
+}
+#GallerySection .container #mealsRow1{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+#GallerySection .container #mealsRow1 .col-md-4 h2{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#GallerySection .container #mealsRow1 .col-md-4 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/*=========== cardsControll =========== */
+/* ?column1 */
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+    border: 5px solid white;
+
+}
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard4 {
+    position: relative;
+    overflow: hidden;
+    border: 5px solid white;
+    
+}
+/* !====================================== */
+/* ?column2 */
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard2 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+    border: 5px solid white;
+}
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard7 {
+    position: relative;
+    overflow: hidden;
+    border: 5px solid white;
+    
+}
+/* !====================================== */
+/* ?column3 */
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard3 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+    border: 5px solid white;
+}
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard5 {
+    position: relative;
+    overflow: hidden;
+    border: 5px solid white;
+    
+}
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard6 {
+    position: relative;
+    overflow: hidden;
+    border: 5px solid white;
+    
+}
+
+/* =============== */
+
+
+/* ============cardsLayerControll=============== */
+/* ? column 1 cards */
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard .innerLayer{  /*! CARD 1 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 500px;
+    z-index: 100;
+    transition: top 0.7s;
+   
+}
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard4 .innerLayer{   /*! CARD 4 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 1200px;
+    z-index: 100;
+    transition: top 0.7s;
+   
+}
+/* !======================================== */
+/* ? column 2 cards */
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard2 .innerLayer{   /*! CARD 2 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 1200px;
+    z-index: 100;
+    transition: top 0.7s;
+   
+}
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard7 .innerLayer{   /*! CARD 7 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 750px;
+    z-index: 100;
+    transition: top 0.7s;
+   
+}
+/* !======================================== */
+/* ? column 3 cards */
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard3 .innerLayer{   /*! CARD 3 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 650px;
+    z-index: 100;
+    transition: top 0.7s;
+   
+}
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard5 .innerLayer{   /*! CARD 4 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 550px;
+    z-index: 100;
+    transition: top 0.7s;
+   
+}
+#GallerySection .container #mealsRow1 .col-md-4 .imgCard6 .innerLayer{   /*! CARD 6 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 750px;
+    z-index: 100;
+    transition: top 0.7s;
+   
+}
+/* ============ */
+
+
+
+/* =========cardHoversControll=========*/
+/* ? column1  Hovers */
+#GallerySection .container #mealsRow1 .imgCard:hover .innerLayer { /*! CARD 1 Hover */
+    top: 0;
+}
+#GallerySection .container #mealsRow1 .imgCard4:hover .innerLayer { /*! CARD 4 Hover */
+    top: 0;
+}
+/* !========================================= */
+/* ? column2   Hovers*/
+#GallerySection .container #mealsRow1 .imgCard2:hover .innerLayer { /*! CARD 2 Hover */
+    top: 0;
+}
+#GallerySection .container #mealsRow1 .imgCard7:hover .innerLayer { /*! CARD 7 Hover */
+    top: 0;
+}
+/* !======================================== */
+/* ? column3   Hovers*/
+#GallerySection .container #mealsRow1 .imgCard3:hover .innerLayer { /*! CARD 3 Hover */
+    top: 0;  
+}
+#GallerySection .container #mealsRow1 .imgCard5:hover .innerLayer { /*! CARD 5 Hover */
+    top: 0;
+}
+#GallerySection .container #mealsRow1 .imgCard6:hover .innerLayer { /*! CARD 6 Hover */
+    top: 0;
+}
+
+
+
+
+
+
+
+/* todo =======> ContactUsSection */
+
+#ContactUsSection{
+    height: 100%;
+    padding: 4rem 0rem;
+    background-color: #202020;
+}
+.iframecontainer{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+
+
+
+#ContactUsSection .row .car-body h3{
+    font-family: "Inter", serif;
+    font-size: clamp(10px, 1.042vw,30px);
+    font-weight: 700;
+    margin-top: 15px;
+    color: white;
+}
+#ContactUsSection .row .car-body p{
+    font-size: clamp(10px, 1.042vw,30px); 
+    color: white;
+}
+
+
+
+
+/* !cardsControll */
+
+#ContactUsSection .row .car-body{
+    background-color: #0d0d0d;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    align-items: center;
+    transform: scaleX(99%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+ 
+ 
+
+}
+
+#card1{ 
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+/* !iconControll */
+#ContactUsSection .row .car-body .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:clamp(20px, 50px ,60px);
+    width: clamp(20px,50px,60px);
+    margin-right: 4%;
+    border-radius: 50%;
+    color: black;
+    background-color: #c17e1f;
+    transform: scale(clamp(80%,80vw,130%));
+}
+
+
+
+#ContactUsSection .row .myForm {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 30px 0px;
+    background-color: #171717;
+}
+#ContactUsSection .row .myForm .form div input{
+    padding: 20px 10px;
+}
+#myBtn{
+    background-color: #c17e1f;
+    border: 1px solid black;
+    color: black;
+    padding: 12px 30px;
+    margin-bottom: 2%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+#footer{
+    background-image: url(.././imgs/textured-metal-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+
+}
+#footerIcon{
+    width: 14%;
+
+}
+#socialMediaFooter{
+    font-weight: 700;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+  
+
+}
+#FooterList{
+ 
+    width: calc(15em-120px);
+    margin: auto;
+
+}
+#FooterList ul{
+   
+    gap:3vw;
+}
+
+#secFooterColumn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#secFooterColumnTitle{
+
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 15px;
+   
+}
+#secFooterColumnParagraph{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+#MyFooterBtn{
+    background-color: #c17e1f;
+    border-radius: 1%;
+}
+#FooterInput{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    
+   
+    border-radius: 1%;
+}
+#QuickfooterListTitle{
+   
+    font-size: 1.3em;
+    font-weight: 700;
+   
+    font-family: "Inter", serif;
+}
+
+
+
+
+
+
+#QuickfooterList{
+
+   margin-left: -12px;
+}
+#QuickfooterList ul li{
+    padding: 0px 0px 5px 0px;
+    font-size: 1em;
+    font-weight: 600;
+
+    transition: all 500ms;
+}
+#QuickfooterList ul li::before{
+    content: ">";
+    height: 1px;
+}
+#QuickfooterList ul li:hover {
+    background-color: #222;
+    transform: translateX(15px);
+}
+
+#thirdFooterColumn h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+    font-family: "Inter", serif;
+}
+#thirdFooterColumn div ul li{
+
+  display: flex;
+
+ 
+}
+#thirdFooterColumn div ul li i{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#c17e1f;
+    font-size: 1.375rem;
+    cursor: pointer;
+}
