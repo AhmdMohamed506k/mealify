@@ -1,0 +1,319 @@
+ @media screen and (max-width: 198px) { /* Less the Iphone 5 */
+  #Mood-btns {
+    margin-left: auto;
+  }
+
+  .navbar-toggler {
+    margin-left: 1.5rem;
+  }
+
+
+  /* section 1 */
+  #mainSection .container .row {
+    flex-direction: column-reverse;
+    text-align: center;
+
+  }
+
+  #mainSection .container .row .col-md-7 .btnGroup {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #mainSection .container .row .col-md-7 .btnGroup .mybtn {
+    margin-bottom: 30px;
+  }
+
+
+
+
+  #ContactUsSection .row .car-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+   
+   }
+
+
+ 
+
+
+
+
+ }
+
+ @media(min-width: 199px) and (max-width: 352px) {   /* IPhone 5 */
+
+   #Mood-btns {
+     margin-left: auto;
+   }
+
+   .navbar-toggler {
+     margin-left: 1.5rem;
+   }
+
+
+   /* section 1 */
+   #mainSection .container .row {
+     flex-direction: column-reverse;
+     text-align: center;
+
+   }
+
+   #mainSection .container .row .col-md-7 .btnGroup {
+     flex-direction: column;
+     width: 100%;
+   }
+
+   #mainSection .container .row .col-md-7 .btnGroup .mybtn {
+     margin-bottom: 30px;
+   }
+
+
+   /* ====================================================== */
+   #CHEFS_Section .container .row .col-lg-12 .globelFont {
+     min-width: 100%;
+     font-size: 10vw;
+   }
+
+   #CHEFS_Section .container .row .col-lg-12 .globelSpanFont {
+     font-size: 15vw;
+
+   }
+   #ContactUsSection .row .car-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+   
+   }
+   
+   #footerList{
+    width: 100%;
+   }
+
+
+
+
+
+ }
+
+ @media(min-width: 353px) and (max-width: 394px) {   /* Galaxy S10 && redmi Note 9 Pro */
+   #Mood-btns {
+     margin-left: auto;
+   }
+
+   .navbar-toggler {
+     margin-left: 1.5rem;
+   }
+
+
+   /* section 1 */
+
+   #mainSection .container .row {
+     flex-direction: column-reverse;
+     text-align: center;
+
+   }
+
+   #mainSection .container .row .col-md-7 .btnGroup {
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+ 
+   } 
+
+   #mainSection .container .row .col-md-7 .btnGroup .mybtn {
+     margin-bottom: 20px;
+   }
+
+   /* =================================== */
+
+   #ContactUsSection .row .car-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+   
+   }
+  
+ 
+ }
+
+
+
+ @media (min-width: 395px) and (max-width: 451px) { /* Iphone 11  */
+
+
+   /* section 1 */
+
+   #mainSection .container .row {
+     flex-direction: column-reverse;
+     text-align: center;
+    
+   }
+
+   #mainSection .container .row .col-md-7 .btnGroup {
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+  
+   } 
+
+   #mainSection .container .row .col-md-7 .btnGroup .mybtn {
+     margin-bottom: 20px;
+   }
+
+   /* ==================== */
+   #ContactUsSection .row .car-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+   
+   }
+
+
+
+
+
+  
+
+
+ }
+
+ 
+
+@media (min-width: 452px) and (max-width:769px) {  
+
+  #mainSection .container .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  
+  }
+
+  #mainSection .container .row .col-md-7 .btnGroup {
+   flex-direction: column;
+   margin: auto;
+
+  }
+
+  #mainSection .container .row .col-md-7 .btnGroup .mybtn {
+    margin-bottom: 30px;
+  }
+
+ 
+
+}
+
+
+
+
+@media (min-width: 770px) and (max-width:992px) { /* Galaxy Tab s7 */
+  #Mood-btns{
+    margin-left: auto;
+   }
+   .navbar-toggler{
+    margin-left:2rem;
+  }
+
+
+  #mainSection .container .row {
+   
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+  }
+
+  #mainSection .container .row .col-md-7 .btnGroup {
+   flex-direction: column;
+   margin: auto;
+  }
+
+  #mainSection .container .row .col-md-7 .btnGroup .mybtn {
+    margin-bottom: 30px;
+  
+ 
+  }
+  
+  #foodImg{
+    max-width: 180%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+
+
+
+
+
+
+  #CHEFS_Section  .container .row {
+    flex-direction: column;
+    
+  }
+  #CHEFS_Section .container .row .col-md-4{
+  margin: auto;
+  width: 80%;
+  }
+
+
+
+
+
+
+  #GallerySection .container #mealsRow1 .col-md-4  {
+    width: 100%;
+   margin: auto;
+  
+
+  }
+
+
+}
+ 
+
+
+@media (min-width: 993px) and (max-width:1199px) { /* Ipad Air */
+
+
+
+#mainSection{
+  height: 100%;
+}
+
+#mainSection .container .row .col-md-7 .btnGroup {
+width: 65%;
+  
+}
+
+#QuickfooterList{
+  width: 23em;
+  background-color: black;
+ }
+#QuickfooterList ul li{
+
+  width: 14em;
+
+}
+
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width:1399px) {
+  #mainSection .container .row .col-md-7 .btnGroup {
+    width: 50%;
+      
+  }
+
+
+
+
+}
+ 
+@media (min-width: 1400px) and (max-width:1500px) {
+
+
+}  
